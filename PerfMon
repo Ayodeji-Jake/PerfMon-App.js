@@ -37,8 +37,6 @@ app.use(
   })
 );
 
-app.use(logger("dev"));
-
 app.use("/", indexRouter);
 app.use("/login", usersRouter);
 
